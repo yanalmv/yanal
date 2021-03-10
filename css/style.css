@@ -848,138 +848,101 @@ h6 {
     background-color: #007bff;
 }
 
-/* Team Section
---------------------------------*/
 
-#team {
-    background: #DCDCDC;
-    padding: 60px 0;
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+
+/* ==========================================================================
+   Contact Us
+  ========================================================================== */
+.form-control {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 15px 30px;
+  font-size: 14px;
+  border-radius: 30px;
+  text-align: center;
+  border: 1px solid #ececec;
+  box-shadow: 6px 0px 43px rgba(131, 131, 131, 0.13);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-#team .member {
-    text-align: center;
-    margin-bottom: 20px;
-    position: relative;
-    border-radius: 50%;
-    overflow: hidden;
-    background: #fff;
+.form-control:focus {
+  border: 1px solid #3c9cfd;
+  outline: none;
+  box-shadow: none;
 }
 
-#team .member .member-info {
-    opacity: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    transition: 0.2s;
-    
+.btn.disabled, .btn:disabled {
+  opacity: 1;
 }
 
-#team .member .member-info-content {
-    margin-top: 50px;
-    transition: margin 0.2s;
+textarea {
+  border-radius: 10px !important;
+  text-align: left !important;
 }
 
-#team .member:hover .member-info {
-    background: rgba(0, 62, 128, 0.7);
-    opacity: 1;
-    transition: 0.4s;
+.contact-info {
+  margin-bottom: 15px;
 }
 
-#team .member:hover .member-info-content {
-    margin-top: 0;
-    transition: margin 0.4s;
+.contact-info i {
+  font-size: 20px;
+  color: #3c9cfd;
 }
 
-#team .member h4 {
-    font-weight: 700;
-    margin-bottom: 2px;
-    font-size: 18px;
-    color: #fff;
+.contact-info h5 {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-#team .member span {
-    font-style: italic;
-    display: block;
-    font-size: 13px;
-    color: #fff;
+.contact-info p {
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
-#team .member .social {
-    margin-top: 15px;
+#contact {
+  background: #ffffff;
+  padding-bottom: 80px;
+  position: relative;
+  text-align: center;
 }
 
-#team .member .social a {
-    transition: none;
-    color: #fff;
+#contact h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
-#team .member .social a:hover {
-    color: #007bff;
+#contact .contact-block {
+  background: #ffffff;
+  overflow: hidden;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 43px 0px rgba(131, 131, 131, 0.23);
 }
 
-#team .member .social i {
-    font-size: 18px;
-    margin: 0 2px;
+.offset-top {
+  margin-top: -100px;
 }
 
-/* Clients Section
---------------------------------*/
-
-#clients {
-    padding: 60px 0;
-    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+/* Contact Map */
+#google-map-area {
+  position: relative;
 }
 
-#clients .clients-wrap {
-    border-top: 1px solid #d6eaff;
-    border-left: 1px solid #d6eaff;
-    margin-bottom: 30px;
+#google-map-area .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
 
-#clients .client-logo {
-    padding: 64px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-right: 1px solid #d6eaff;
-    border-bottom: 1px solid #d6eaff;
-    overflow: hidden;
-    background: #fff;
-    height: 160px;
+#msgSubmit {
+  margin-bottom: 0;
 }
 
-#clients .client-logo:hover img {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}
+/* ==========================================================================
 
-#clients img {
-    transition: all 0.4s ease-in-out;
-}
 
 /* Contact Section
 --------------------------------*/
