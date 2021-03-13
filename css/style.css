@@ -8,11 +8,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
- 
+
 body {
     background: #fff;
     color: #444;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -33,6 +33,7 @@ p {
     margin: 0 0 30px 0;
 }
 
+h,
 h1,
 h2,
 h3,
@@ -41,8 +42,10 @@ h5,
 h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    margin:  0px ;
+    margin: 0px;
     padding: 0;
+    color: #444;
+
 }
 
 /* Back to top button */
@@ -154,10 +157,11 @@ h6 {
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
-#intro .clearfix  {
+#intro .clearfix {
     height: 100vh;
     width: 50%;
 }
+
 #intro {
     width: 100%;
     position: relative;
@@ -165,29 +169,25 @@ h6 {
     background-size: cover;
     padding: 150px 0 120px 0;
 }
- 
+
 #intro .intro-img {
     width: 40%;
-    
     float: right;
 }
- 
+
 #intro .intro-info {
     width: 60%;
-    
     float: left;
 }
 
 #intro .intro-info h2 {
-    color: ##132f36;
-    margin:  0 0 20px 0;
+    margin: 0 0 20px 0;
     font-size: 38px;
     font-weight: 700;
 }
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
-    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -195,18 +195,18 @@ h6 {
     padding: 10px 50px;
     border-radius: 50px;
     transition: 0.5s;
-    margin: 12px 0px  ;
+    margin: 12px 0px;
     color: #d91633;
     width: 197px;
-   
-    
+
+
 }
 
 #intro .intro-info .btn-get-started {
     background: #d91633;
     border: 2px solid #d91633;
     color: #fff;
-   
+
 }
 
 #intro .intro-info .btn-get-started:hover {
@@ -360,11 +360,11 @@ h6 {
 
 .section-header h3 {
     font-size: 36px;
-    color: #283d50;
+    color: #098764;
     text-align: center;
     font-weight: 500;
     position: relative;
-    
+
 }
 
 .section-header p {
@@ -375,13 +375,213 @@ h6 {
     color: #556877;
     width: 50%;
 }
- 
+
 /* Section with background
 --------------------------------*/
 
 .section-bg {
     background: #ecf5ff;
 }
+
+
+
+/* why Us Section
+--------------------------------*/
+#why-us {
+    background: url("../img/red.png") center bottom no-repeat;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    padding: 42px 0;
+    box-shadow: inset 0px 0px 22px 0px rgb(0 0 0 / 10%)
+}
+
+#why-us .section-header h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    margin: 0px 0px 40px 0px;
+    transition: 0.5s;
+}
+
+#why-us h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    transition: 0.5s;
+    text-shadow: 0 0 1px black;
+}
+
+#why-us .box {
+    background: #fff;
+    box-shadow: 1px 0px 5px rgb(0 0 0 / 10%);
+    text-align: center;
+    border-radius: 7px 70px;
+    margin: 20px 15px;
+    padding: 15px 20px;
+    color: #444444;
+    width: 100%;
+}
+
+#why-us .box:hover {
+    box-shadow: 1px 10px 10px rgb(0 0 0 / 50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#features {
+    
+    background: url("../img/grey-watercolor-soft-abstract-background_3590-96.jpg") center bottom no-repeat;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    padding: 42px 0;
+    box-shadow: inset 0px 0px 22px 0px rgb(0 0 0 / 10%)
+
+}
+#features    h1 {
+    color: #444;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    margin: 0px 0px 40px 0px;
+    transition: 0.5s;
+}
+
+#features h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    transition: 0.5s;
+    color: #d91633;
+        margin: 0px 0px 10px 0px;
+
+    text-shadow: 0 0 1px #d91633;
+}
+
+#features p {
+    font-family: "Montserrat", sans-serif;
+    transition: 0.5s;
+    text-shadow: 0 0 1px black;
+}
+ 
+
+#features .content-left  {
+  float: right;
+}
+
+#features .content-left .text {
+  text-align: center;
+}
+
+#features .content-right  {
+  float: left;
+}
+
+
+
+#features .box-item.wow.fadeInLeft {
+    background: #fff;
+    box-shadow: 1px 0px 5px rgb(0 0 0 / 10%);
+    text-align: center;
+    border-radius: 7px 70px;
+    margin: 20px 15px;
+    padding: 15px 20px;
+    color: #444444;
+    width: 100%;
+}
+#features .box-item.wow.fadeInRight {
+    background: #fff;
+    box-shadow: 1px 0px 5px rgb(0 0 0 / 10%);
+    text-align: center;
+    border-radius: 70px 7px;
+    margin: 20px 15px;
+    padding: 15px 20px;
+    color: #444444;
+    width: 100%;
+}
+
+
+
+
+#features .box-item {
+  box-shadow: 0 0 12px #F4F4F4; 
+  padding: 15px;
+  line-height: 22px;
+  margin-top: 30px;
+  border-radius: 3px;
+  background-color: #fff;
+  -webkit-transition: all .3s ease-in-out;
+  -mox-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  position: relative;
+  top: 0;
+}
+ 
+
+#features .box-item .text h4 {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#features .box-item .text p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+#features .box-item:hover {
+  box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+}
+
+#features .box-item:hover h4 {
+  color: #F63854;
+}
+
+#features .show-box {
+  margin-top: 50px;
+}
+
+#features .show-box.wow.fadeInUp img {
+    width: 85%;
+    background: #fff;
+    box-shadow: 1px 0px 5px rgb(0 0 0 / 10%);
+    text-align: center;
+    border-radius: 70px 7px;
+    margin: 20px 15px;
+    padding: 15px 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* About Us Section
 --------------------------------*/
@@ -399,7 +599,7 @@ h6 {
     background: #fff;
 }
 
-#about .about-container  {
+#about .about-container {
     color: #333;
     font-weight: 700;
     font-size: 32px;
@@ -448,7 +648,7 @@ h6 {
 }
 
 
- 
+
 
 #about .about-extra {
     padding-top: 20px;
@@ -463,7 +663,7 @@ h6 {
 --------------------------------*/
 
 #services {
-    
+
     padding: 60px 0 40px 0;
     box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
@@ -518,129 +718,6 @@ h6 {
     margin-bottom: 0;
 }
 
-#why-us {
-     background: url("../img/red.png") center bottom no-repeat;
-      width: 100%;
-    position: relative;
-    
-    background-size: cover;
-    padding: 42px 0;
-    box-shadow: inset 0px 0px 22px 0px rgb(0 0 0 / 10%)
-
-}
-
-
-#why-us .section-header h3,
-#why-us .section-header p {
-    color: #fff;
-    margin: 0px 0px 40px 0px ;
-     font-family: "Montserrat", sans-serif;
-
-}
-
-
-
-
-#why-us  .box {
-    background: #fff;
-     box-shadow: 1px 0px  5px  rgb(0 0 0 / 10%);
-        text-align: center;
-
-    border-radius:  7px 70px;
-    margin: 20px 15px;
-    padding: 15px ;
-    color: #444444;
-    width: 100% ; 
- 
-}
-#why-us  h6 , h5 {
-     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-
-    transition: 0.5s;
-
-}
-
-
-#why-us .card {
-    background: #00458f;
-    border-color: #00458f;
-    border-radius: 10px;
-    margin: 0 15px;
-    padding: 15px 0;
-    text-align: center;
-    color: #fff;
-    transition: 0.3s ease-in-out;
-    height: 100%;
-    
-}
-
-#why-us .h41 {
-     font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    margin: 0 0 20px 0;
-    padding: 0;
-    
-    font-size: 22px;
-    font-weight: ;
-     color: #fff;
-    text-align:center;
-    
-}
-#why-us .card:hover {
-    background: #003b7a;
-    border-color: #003b7a;
-}
-
-#why-us .card i {
-    font-size: 48px;
-    padding-top: 15px;
-    color: #bfddfe;
-}
-
-#why-us .card h5 {
-    font-size: 22px;
-    font-weight: 600;
-     color: #fff;
-}
-
-#why-us .card p {
-    font-size: 15px;
-    color: #d8eafe;
-}
-
-#why-us .card .readmore {
-    color: #fff;
-    font-weight: 600;
-    display: inline-block;
-    transition: 0.3s ease-in-out;
-    border-bottom: #00458f solid 2px;
-}
-
-#why-us .card .readmore:hover {
-    border-bottom: #fff solid 2px;
-}
-
-#why-us .counters {
-    padding-top: 40px;
-}
-
-#why-us .counters span {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    display: block;
-    color: #fff;
-}
-
-#why-us .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: #cce5ff;
-}
 
 /* Portfolio Section
 --------------------------------*/
@@ -854,91 +931,92 @@ h6 {
    Contact Us
   ========================================================================== */
 .form-control {
-  width: 100%;
-  margin-bottom: 30px;
-  padding: 15px 30px;
-  font-size: 14px;
-  border-radius: 30px;
-  text-align: center;
-  border: 1px solid #ececec;
-  box-shadow: 6px 0px 43px rgba(131, 131, 131, 0.13);
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid #ececec;
+    box-shadow: 6px 0px 43px rgba(131, 131, 131, 0.13);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .form-control:focus {
-  border: 1px solid #3c9cfd;
-  outline: none;
-  box-shadow: none;
+    border: 1px solid #3c9cfd;
+    outline: none;
+    box-shadow: none;
 }
 
-.btn.disabled, .btn:disabled {
-  opacity: 1;
+.btn.disabled,
+.btn:disabled {
+    opacity: 1;
 }
 
 textarea {
-  border-radius: 10px !important;
-  text-align: left !important;
+    border-radius: 10px !important;
+    text-align: left !important;
 }
 
 .contact-info {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .contact-info i {
-  font-size: 20px;
-  color: #3c9cfd;
+    font-size: 20px;
+    color: #3c9cfd;
 }
 
 .contact-info h5 {
-  margin-top: 5px;
-  font-size: 18px;
-  font-weight: 500;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .contact-info p {
-  font-size: 14px;
-  margin-bottom: 0;
+    font-size: 14px;
+    margin-bottom: 0;
 }
 
 #contact {
-  background: #ffffff;
-  padding-bottom: 80px;
-  position: relative;
-  text-align: center;
+    background: #ffffff;
+    padding-bottom: 80px;
+    position: relative;
+    text-align: center;
 }
 
 #contact h2 {
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
 #contact .contact-block {
-  background: #ffffff;
-  overflow: hidden;
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 43px 0px rgba(131, 131, 131, 0.23);
+    background: #ffffff;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 43px 0px rgba(131, 131, 131, 0.23);
 }
 
 .offset-top {
-  margin-top: -100px;
+    margin-top: -100px;
 }
 
 /* Contact Map */
 #google-map-area {
-  position: relative;
+    position: relative;
 }
 
 #google-map-area .container-fluid {
-  padding-left: 0;
-  padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #msgSubmit {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 /* ==========================================================================
@@ -1126,13 +1204,14 @@ textarea {
 
     #intro {
         padding: 140px 0 60px 0;
-        
+
     }
+
     #intro .intro-img {
         width: 80%;
         float: none;
         margin: 0 auto 25px auto;
-         
+
     }
 
     #intro .intro-info {
@@ -1140,7 +1219,7 @@ textarea {
         float: none;
         margin: auto;
         text-align: center;
-         
+
     }
 
     #why-us .card {
