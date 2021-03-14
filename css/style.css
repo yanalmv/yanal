@@ -513,31 +513,6 @@ h6 {
 
 
 
-#features .box-item {
-  box-shadow: 0 0 12px #F4F4F4; 
-  padding: 15px;
-  line-height: 22px;
-  margin-top: 30px;
-  border-radius: 3px;
-  background-color: #fff;
-  -webkit-transition: all .3s ease-in-out;
-  -mox-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  position: relative;
-  top: 0;
-}
- 
-
-#features .box-item .text h4 {
-  cursor: pointer;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 22px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
 
 #features .box-item .text p {
   font-size: 14px;
@@ -559,7 +534,7 @@ h6 {
   margin-top: 50px;
 }
 
-#features   .sdsdsdsd {
+#features   .img {
     padding: 15px 20px;
  display: block;
   margin-left: auto;
