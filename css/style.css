@@ -238,8 +238,8 @@ h6 {
 
 .main-nav,
 .main-nav * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     list-style: none;
 }
 
@@ -253,7 +253,7 @@ h6 {
     display: block;
     position: relative;
     color: #d91633;
-    padding: 10px 15px;
+    padding: 10px 13px;
     transition: 0.3s;
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
@@ -560,12 +560,11 @@ h6 {
 }
 
 #features .show-box.wow.fadeInUp img {
-    width: 100%;
-    text-align: center;
-    border-radius: 70px 7px;
-    margin: 20px 15px;
     padding: 15px 20px;
-
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
 }
 
 
