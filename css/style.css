@@ -1163,10 +1163,16 @@ textarea {
 @media (min-width: 992px) {
     #testimonials .testimonial-item p {
         width: 80%;
+        
+    }
+    #features img  {
+        width: 99%;
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) {#features img  {
+        width: 50%;
+    }
     #header {
         height: 60px;
         padding: 10px 0;
@@ -1203,12 +1209,18 @@ textarea {
 }
 
 @media (max-width: 768px) {
+    
     .back-to-top {
         bottom: 15px;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) 
+
+{
+    #features img  {
+        width: 60%;
+    }
     #intro .intro-info {
         width: 100%;
     }
@@ -1243,3 +1255,8 @@ textarea {
         padding: 100px 0 20px 0;
     }
 }
+
+@media (max-width: 574px) {
+    #features img  {
+        width: 65%;
+    }
