@@ -488,7 +488,25 @@ h6 {
 }
 
 
-
+#features  .img-features {
+     
+position: absolute
+    margin: 0px 0px;
+    padding: 0px 0px;
+    width: 15%;
+}
+#features  .img-features-1 {
+     
+     
+    padding: 0px 0px;
+    width: 50%;
+  
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
+    
+ 
 #features .box-item.wow.fadeInLeft {
     background: #fff;
     box-shadow: 1px 0px 5px rgb(0 0 0 / 10%);
@@ -534,13 +552,6 @@ h6 {
   margin-top: 50px;
 }
 
-#features   img {
-    padding: 15px 110px;
-   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 105%;
-}
 
 
 
@@ -1206,6 +1217,12 @@ textarea {
     #why-us .card {
         margin: 0;
     }
+     #features  .img-features-1  {
+        width: 20%;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1218,8 +1235,11 @@ textarea {
 @media (max-width: 767px) 
 
 {
-    #features img  {
-        width: 60%;
+   #features  .img-features-1  {
+        width: 20%;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
     }
     #intro .intro-info {
         width: 100%;
@@ -1257,6 +1277,9 @@ textarea {
 }
 
 @media (max-width: 574px) {
-    #features img  {
-        width: 65%;
+    #features  .img-features-1  {
+        width: 20%;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
     }
